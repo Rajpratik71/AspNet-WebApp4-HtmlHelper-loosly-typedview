@@ -16,7 +16,7 @@ namespace AspNet_WebApp4_HtmlHelper_loosly_typedview
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "user", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
