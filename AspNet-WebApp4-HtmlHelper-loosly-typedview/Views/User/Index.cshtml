@@ -2,6 +2,31 @@
 @{
     ViewBag.Title = "Index";
 }
-
-<h2>Index</h2>
-
+<br />
+<hr />
+<table border="1" align="center" title="Sample Table">
+    <tr>
+        <td>
+            @Html.Label("First Name")
+        </td>
+        <td>
+            @Html.TextBox("fname")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.Label("Last Name")
+        </td>
+        <td>
+            @Html.TextBox("lame")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.Label("Email")
+        </td>
+        <td>
+            @Html.TextBox("Email")
+        </td>
+    </tr>
+</table>
